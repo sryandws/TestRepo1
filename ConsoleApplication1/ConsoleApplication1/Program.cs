@@ -9,7 +9,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("At first I was like this...");
+            Console.ReadLine();
         }
     }
 }
