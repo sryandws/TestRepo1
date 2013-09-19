@@ -9,7 +9,6 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            // Comment
             Console.WriteLine("Hello World");
         }
     }
