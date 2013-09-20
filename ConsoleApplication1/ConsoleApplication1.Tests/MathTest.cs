@@ -15,5 +15,16 @@ namespace ConsoleApplication1.Tests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void GivenSubtract_WhenThreeMinusTwo_ThenOne()
+        {
+            var target = new Math();
+
+            int expected = 1;
+            int actual = target.Subtract(3, 2);
+
+            Assert.AreEqual(expected, actual);
+        }    
     }
 }
