@@ -5,11 +5,11 @@ using System.Text;
 
 namespace ConsoleApplication1
 {
-    class Program
+    internal sealed class Math
     {
-        static void Main(string[] args)
+        public int Add(int a, int b)
         {
-           
+            throw new NotImplementedException();
         }
     }
 }
