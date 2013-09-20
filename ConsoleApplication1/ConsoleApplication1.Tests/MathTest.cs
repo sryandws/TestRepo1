@@ -5,6 +5,7 @@ namespace ConsoleApplication1.Tests
     [TestClass]
     public class MathTest
     {
+        [TestMethod]
         public void GivenAdd_WhenOnePlusTwo_ThenThree()
         {
             var target = new Math();
